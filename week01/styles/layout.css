@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* CSS variables */
+:root {
+    --heading-font: "Inknut Antiqua", display;
+    --paragraph-font: Poppins, sans-serif;
+
+    --primary-color: #200111;
+    --secondary-color: #63327d;
+    --accent1-color: #9296c0;
+    --accent2-color: #f2f5fa;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--accent1-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    font-size: 3rem;
+    letter-spacing: 0.08rem;
+    padding: 0.5rem 2rem;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    font-size: 2.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.08rem;
+    padding: 1rem 0;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    padding-top: 1rem;
+    padding-right: 0.7rem;
+}
+
+header {
+    background-color: var(--primary-color);
+    grid-column: 1 / 13;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    grid-column: 1 / 13;
+    align-items: center;
+    width: 100%;
+    padding: 0.3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: var(--accent2-color);
+    padding: 0.75rem;
+    font-family: var(--paragraph-font);
+    font-size: 1.1rem;
+    font-weight: 430;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+main {
+    background-color: var(--accent2-color);
+    grid-column: 1 / 9;
+    padding: 2rem;
+}
+
+main img {
+    padding-top: 0.8rem;
+}
+
+aside {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    grid-column: 9 / 13;
+    padding: 2rem;
+}
+
+aside img {
+    padding-top: 0.8rem;
+
+}
+
+footer {
+    background-color: var(--secondary-color);
+    grid-column: 1 / 13;
+    padding: 1rem;
+    border-top: 2px solid var(--primary-color);
+}
+
+footer p {
+    color: var(--accent2-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.09rem;
+    text-align: center;
+}
