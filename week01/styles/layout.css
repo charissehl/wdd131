@@ -22,7 +22,7 @@
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 h1 {
