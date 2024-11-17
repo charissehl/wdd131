@@ -54,7 +54,7 @@ nav li {
 }
 
 nav a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: var(--paragraph-font);
     font-size: 1.1rem;
     font-weight: 600;
