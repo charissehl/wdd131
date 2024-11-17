@@ -98,7 +98,7 @@ footer p {
 h1 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
-    font-size: 3rem;
+    font-size: 3.1rem;
     letter-spacing: 0.1em;
     font-weight: 400;
     padding: 0.5rem 3rem;
@@ -120,13 +120,13 @@ h2 {
 
 h3 {
     font-family: var(--heading-font);
+    text-transform: uppercase;
     color: var(--secondary-color);
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 780;
     letter-spacing: 0.1em;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
-
-
 
 p {
     font-family: var(--paragraph-font);
@@ -175,9 +175,11 @@ a {
 
 #resources h2 {
     font-family: var(--heading-font);
+    text-transform: uppercase;
     color: var(--accent2-color);
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    font-weight: 600;
     letter-spacing: 0.1em;
     padding: 1rem 0;
 }
