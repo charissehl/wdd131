@@ -1,28 +1,67 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Charisse Hearns-Lemon</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Charisse Hearns-Lemon Homepage.">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Charisse Hearns-Lemon Homepage">
     <meta name="author" content="Charisse Hearns-Lemon">
-    <link href="" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals</h1>
-        <p>Charisse Hearns-Lemon</p>
+        <h1>Charisse Hearns-Lemon</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="www.linkedin.com/in/charisse-hl-11a590302">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/groups/1640498/users/728743">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng">Scripture</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section class="card" id="resources">
+            <div>
+                <h4>Web Dev Resources</h4>
+                <img src="images/web-dev-img.png" alt="Free web development illustration" class="responsive-img100">
+
+                <ul>
+                    <li><a href="https://www.linkedin.com/learning/collections/7187965408681811968?u=2153100">Linkedin Learning Collections</a></li>
+                    <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+                    <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode">Snippet Generator</a></li>
+                    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+                    <li><a href="https://coolors.co/">Coolors</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="profile">
+            <div>
+                <img src="images/profile.jpg" alt="Charisse's profile photo." id="profile-img">
+                <h2>About Me</h2>
+                <p>Kia ora! (Hello) My name is Charisse, and I'm a mum of two living in Auckland, New Zealand. I enjoy doodling, geeking, reading, gardening, camping, learning new things, and most of all, spending time with my loved ones.</p>
+                <p>I have a background in art and design. Since having kids I have been involved in preschool education and this year I have been working as a Teacher Aide at a primary school. I love helping people, which is an important aspect in my career choice.</p>
+                <p>My current goals are to renew my knowledge in graphic design, upgrading to include web development, and to start a professional home-based scanning business that will also eventually include offering web design and development to clients.</p>
+            </div>
+            <div>
+                <img src="images/auckland.jpg" alt="Auckland landscape image" class="landscape-img">
+                <h3>Auckland, New Zealand</h3>
+                <p>"The Māori-language name for Auckland is Tāmaki Makaurau, meaning "Tāmaki desired by many", in reference to the desirability of its natural resources and geography." <i>- wiki</i></p>
+            </div>
+        </section>
 
     </main>
 
     <footer>
-
+        <p id="year">©2024 🌸 Charisse Hearns-Lemon 🌸 Auckland NZ</p>
+        <p id="medium"></p>
     </footer>
 
 </body>
