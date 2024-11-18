@@ -101,13 +101,16 @@ h1 {
     font-size: 3.1rem;
     letter-spacing: 0.1em;
     font-weight: 400;
-    padding: 0.5rem 3rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.9rem;
 }
 
 .subhead1 {
     font-size: 1.55rem;
     text-transform: uppercase;
     font-weight: 770;
+    color: var(--accent1-color);
 }
 
 h2 {
@@ -116,6 +119,7 @@ h2 {
     font-size: 2.1rem;
     letter-spacing: 0.1em;
     font-weight: 600;
+    text-align: center;
 }
 
 h3 {
@@ -126,6 +130,7 @@ h3 {
     font-weight: 780;
     letter-spacing: 0.1em;
     padding-top: 1rem;
+    text-align: center;
 }
 
 p {
@@ -157,6 +162,7 @@ a {
 #profile-img {
     float: right;
     width: 33%;
+    min-width: 150px;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -168,20 +174,22 @@ a {
 
 #resources {
     grid-column: 1 / 4;
+    min-width: 200px;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    padding: 3rem;
+    padding: 0;
 }
 
 #resources h2 {
     font-family: var(--heading-font);
     text-transform: uppercase;
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     font-size: 1.2rem;
     line-height: 1.5em;
     font-weight: 600;
     letter-spacing: 0.1em;
     padding: 1rem 0;
+    text-align: center;
 }
 
 #resources a {
@@ -190,14 +198,20 @@ a {
 
 #resources li {
     padding: 0.7rem 0;
+    text-align: center;
 }
 
 #resources a:hover {
     color: var(--accent1-color);
 }
 
-#resources img {
-    width: 100%;
-    height: auto;
-    padding: 0.4rem 0;
+.img-container {
+    display: grid;
 }
+
+#resources img {
+    max-width: 100%;
+    height: auto;
+    min-width: 150px;
+    padding: 0.4rem 0;
+    justify-self: center;
