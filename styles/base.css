@@ -159,14 +159,12 @@ a {
     padding-bottom: 3rem;
 }
 
-.landscape-img,
-.responsive-img {
+.landscape-img {
     max-width: 777px;
     width: 100%;
     height: auto;
     min-width: 100px;
     justify-self: center;
-    align-self: center;
 }
 
 .img-container {
@@ -187,6 +185,8 @@ a {
     float: right;
     width: 33%;
     min-width: 150px;
+    max-width: 374px;
+    height: auto;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -225,7 +225,8 @@ a {
 }
 
 #resources img {
-    max-width: 100%;
+    max-width: 500px;
+    width: 100%;
     height: auto;
     min-width: 100px;
     padding: 0.4rem 0;
