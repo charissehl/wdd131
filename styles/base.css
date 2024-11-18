@@ -169,6 +169,8 @@ a {
 
 .landscape-img {
     width: 100%;
+    min-width: 400px;
+    max-width: 777px;
     margin-top: 3rem;
 }
 
