@@ -230,4 +230,5 @@ a {
 
 #medium {
     color: var(--accent1-color);
+    font-size: 0.8rem;
 }
