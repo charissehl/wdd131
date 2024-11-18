@@ -107,13 +107,6 @@ h1 {
     padding-bottom: 0.9rem;
 }
 
-.subhead1 {
-    font-size: 1.55rem;
-    text-transform: uppercase;
-    font-weight: 770;
-    color: var(--accent1-color);
-}
-
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -151,8 +144,38 @@ a {
     text-decoration: none;
 }
 
+.subhead1 {
+    font-size: 1.55rem;
+    text-transform: uppercase;
+    font-weight: 770;
+    color: var(--accent1-color);
+}
+
 .card {
     background-color: var(--accent2-color);
+}
+
+.article-size {
+    padding-bottom: 3rem;
+}
+
+.landscape-img,
+.responsive-img {
+    max-width: 777px;
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    justify-self: center;
+    align-self: center;
+}
+
+.img-container {
+    display: grid;
+}
+
+.block-bg-color {
+    background-color: var(--primary-color);
+    width: 100%;
 }
 
 #profile {
@@ -166,16 +189,6 @@ a {
     min-width: 150px;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
-}
-
-.landscape-img,
-.responsive-img {
-    max-width: 777px;
-    width: 100%;
-    height: auto;
-    min-width: 100px;
-    justify-self: center;
-    align-self: center;
 }
 
 #resources {
@@ -209,15 +222,6 @@ a {
 
 #resources a:hover {
     color: var(--accent1-color);
-}
-
-.img-container {
-    display: grid;
-}
-
-.block-bg-color {
-    background-color: var(--primary-color);
-    width: 100%;
 }
 
 #resources img {
