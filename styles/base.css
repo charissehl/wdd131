@@ -168,10 +168,10 @@ a {
 }
 
 .landscape-img {
-    width: 100%;
-    min-width: 400px;
     max-width: 777px;
-    margin-top: 3rem;
+    height: auto;
+    min-width: 400px;
+    justify-self: center;
 }
 
 #resources {
@@ -209,6 +209,10 @@ a {
 
 .img-container {
     display: grid;
+}
+
+.block-bg-color {
+    background-color: var(--accent1-color);
 }
 
 #resources img {
