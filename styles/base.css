@@ -88,10 +88,11 @@ footer {
 }
 
 footer p {
+    font-family: var(--heading-font);
     color: var(--accent2-color);
     font-size: 0.9rem;
     font-weight: 500;
-    letter-spacing: 0.09rem;
+    letter-spacing: 0.15em;
     text-align: center;
 }
 
@@ -167,11 +168,14 @@ a {
     margin-bottom: 1.5rem;
 }
 
-.landscape-img {
+.landscape-img,
+.responsive-img {
     max-width: 777px;
+    width: 100%;
     height: auto;
-    min-width: 400px;
+    min-width: 100px;
     justify-self: center;
+    align-self: center;
 }
 
 #resources {
@@ -212,13 +216,18 @@ a {
 }
 
 .block-bg-color {
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
+    width: 100%;
 }
 
 #resources img {
     max-width: 100%;
     height: auto;
-    min-width: 150px;
+    min-width: 100px;
     padding: 0.4rem 0;
     justify-self: center;
+}
+
+#medium {
+    color: var(--accent1-color);
 }
