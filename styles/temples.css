@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* CSS variables */
+:root {
+    --heading-font: 'Cinzel Decorative', display;
+    --paragraph-font: 'Lato', sans-serif;
+
+    --primary-color: #1A051F;
+    --secondary-color: #055086;
+    --accent1-color: #49cabd;
+    --accent2-color: #FDFFFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+main {
+    width: 100vw;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+header,
+main,
+footer {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1.1rem 0;
+    margin-bottom: 1.1rem;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    margin: 0.8rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+
+.active {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--accent1-color);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2.2rem;
+    position: relative;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
+h1 {
+    font-size: 3.3rem;
+    text-align: center;
+    margin-top: 0.1rem;
+    color: var(--secondary-color);
+    margin-right: 1.3rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    color: var(--secondary-color);
+    margin: 0.5rem auto 0;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Navigation menu: hide burger bar */
+#menu {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: var(--accent2-color);
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+}
+
+.navigation a {
+    display: none;
+}
+
+.open a {
+    display: block;
+}
+
+#menu span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#menu:hover span {
+    background-color: var(--accent1-color);
+}
+
+.topbar,
+.midbar,
+.btmbar {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+#menu.open .topbar {
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+}
+
+#menu.open .midbar {
+    background-color: transparent;
+}
+
+#menu.open .btmbar {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -10px;
+}
+
+/* Main content */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 1rem 0;
+}
+
+.gallery figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery figcaption {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 0.8em;
+    padding: 0.5em;
+    margin: 0 auto;
+}
