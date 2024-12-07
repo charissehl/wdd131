@@ -29,8 +29,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: var(--highlight-color);
-    background-color: var(--primary-color);
+    background-color: rgba(var(--rgb-primary-color), 0.95);
     font-family: var(--paragraph-font);
+}
+
+header {
+    background-color: var(--primary-color);
+
 }
 
 h1 {
@@ -122,12 +127,12 @@ main {
 }
 
 footer {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 1.8rem;
 }
 
 footer p {
-    color: var(--highlight-color);
+    color: var(--accent-color);
     font-size: 1.1rem;
     line-height: 1.8rem;
     text-align: center;
