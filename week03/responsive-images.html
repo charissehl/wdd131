@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images: srcset</title>
+    <meta name="description" content="Responsive image design: srcset exercise">
+    <meta name="author" content="Charisse Hearns-Lemon">
+    <link href="styles/responsive-images.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Emmet shorthand: main>div.hero>picture>source:media*2+img -->
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width:500px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Sydney Temple, Australia" width="500" height="250">
+            </picture>
+        </div>
+    </main>
+
+</body>
+
+</html>

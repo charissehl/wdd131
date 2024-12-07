@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Assignment 3: Place</title>
+    <meta name="description" content="WDD 131 Assignment 3: Place">
+    <meta name="author" content="Charisse Hearns-Lemon">
+    <link href="styles/place.css" rel="stylesheet">
+    <link href="styles/place-lg.css" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Aotearoa</h1>
+        <h2>New Zealand</h2>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/place-hero-lg.webp" media="(min-width: 950px)">
+                <source srcset="images/place-hero-med.webp" media="(min-width: 500px)">
+                <img src="images/place-hero-sml.webp" alt="Māori carving on a Marae with native NZ bush in the background." width="1500" height="1000">
+            </picture>
+        </section>
+
+        <article class="container" id="data">
+            <h3>Data</h3>
+            <p>Area</p>
+            <p>268,021 km²</p>
+            <p>Population</p>
+            <p>5,435,200</p>
+            <p>Capital</p>
+            <p>Wellington</p>
+            <p>Official Languages</p>
+            <p>English, Māori, <br>NZ Sign Language</p>
+            <p>Time Zone</p>
+            <p>UTC+12 NZST<br>
+                UTC+13 NZDT <i>(Summer)</i></p>
+            <p>Calling Code</p>
+            <p>+64</p>
+
+        </article>
+
+        <article class="container" id="weather">
+            <h3>Weather</h3>
+            <img src="images/weather-sm.svg" alt="Sunny weather icon" width="150" height="150">
+            <p>Temperature</p>
+            <p><span id="temperature-display"></span>°C</p>
+            <p>Conditions</p>
+            <p>Sunny</p>
+            <p>Wind Speed</p>
+            <p><span id="wind-speed-display"></span>km/h</p>
+            <p>Wind Chill</p>
+            <p id="result">°C</p>
+        </article>
+
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p id="medium"></p>
+    </footer>
+
+</body>
+
+</html>
