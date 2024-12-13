@@ -225,7 +225,7 @@ footer {
     display: flex;
     flex-flow: column;
     max-width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .temple-card img {
