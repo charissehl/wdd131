@@ -71,7 +71,7 @@ const temples = [
         location: "Hamilton, New Zealand",
         dedicated: "1958, April, 20",
         area: 45251,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-29744-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-26603-thumb.jpg"
 
     },
     {
@@ -79,91 +79,91 @@ const temples = [
         location: "Laie, Hawaii, United States",
         dedicated: "1919, November, 27",
         area: 42100,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-7370-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-3830-thumb.jpg"
     },
     {
         templeName: "Tokyo Japan",
         location: "Tokyo, Japan",
         dedicated: "1980, October, 27",
         area: 53997,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-26340-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-8154-thumb.jpg"
     },
     {
         templeName: "Sydney Australia",
         location: "Carlingford, New South Wales, Australia",
         dedicated: "1984, September, 20",
         area: 30067,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/sydney-australia-temple/sydney-australia-temple-43342-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/sydney-australia-temple/sydney-australia-temple-16037-thumb.jpg"
     },
     {
         templeName: "Johannesburg South Africa",
         location: "Johannesburg, South Africa",
         dedicated: "1985, August, 24",
         area: 19184,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/johannesburg-south-africa-temple/johannesburg-south-africa-temple-22475-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/johannesburg-south-africa-temple/johannesburg-south-africa-temple-22456-thumb.jpg"
     },
     {
         templeName: "Cebu City Phillipines",
         location: "Cebu City, Cebu, Phillipines",
         dedicated: "2010, June, 13",
         area: 29556,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/133-Cebu-City-Philippines-Temple.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/cebu-city-philippines-temple/cebu-city-philippines-temple-33251-thumb.jpg"
     },
     {
         templeName: "San Diego California",
         location: "San Diego, California, United States",
         dedicated: "1993, April, 25",
         area: 72000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-9060-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-52301-thumb.jpg"
     },
     {
         templeName: "Seoul Korea",
         location: "Seoul, Seoul-teukbyeolsi, South Korea",
         dedicated: "1985, December, 14",
         area: 28057,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-22305-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-22309-thumb.jpg"
     },
     {
         templeName: "Stockholm Sweden",
         location: "Västerhaninge, Sweden",
         dedicated: "1985, June, 10",
         area: 31000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/stockholm-sweden-temple/stockholm-sweden-temple-30267-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/stockholm-sweden-temple/stockholm-sweden-temple-44319-thumb.jpg"
     },
     {
         templeName: "Fortaleza Brazil",
         location: "Fortaleza-CE, Brazil",
         dedicated: "2019, June, 2",
         area: 36000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/fortaleza-brazil-temple/fortaleza-brazil-temple-5569-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/fortaleza-brazil-temple/fortaleza-brazil-temple-11029-thumb.jpg"
     },
     {
         templeName: "Kinshasa Democratic Republic of the Congo",
         location: "Kinshasa, Democratic Republic of the Congo",
         dedicated: "2019, April, 14",
         area: 12000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/kinshasa-democratic-republic-of-the-congo-temple/kinshasa-democratic-republic-of-the-congo-temple-3533-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/kinshasa-democratic-republic-of-the-congo-temple/kinshasa-democratic-republic-of-the-congo-temple-11033-thumb.jpg"
     },
     {
         templeName: "Kyiv Ukraine",
         location: "Kyevo-Sviatoshyns'ky Rayon, Kyivs'ka Oblast, Ukraine",
         dedicated: "2010, August, 29",
         area: 22184,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/134-Kyiv-Ukraine-Temple.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/kyiv-ukraine-temple/kyiv-ukraine-temple-3989-thumb.jpg"
     },
     {
         templeName: "Preston England",
         location: "Lancashire, England, United Kingdom",
         dedicated: "1998, June, 7",
         area: 69630,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/preston-england-temple/preston-england-temple-45357-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/preston-england-temple/preston-england-temple-31812-thumb.jpg"
     },
     {
         templeName: "Rome Italy",
         location: "Rome, RM, Italy",
         dedicated: "2019, March, 10",
         area: 41010,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-3548-thumb.jpg"
     },
 ];
 
