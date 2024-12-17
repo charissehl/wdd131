@@ -85,7 +85,9 @@ h3 {
     text-align: left;
     color: var(--secondary-color);
     padding: 0.8rem 3rem 0.7rem;
-    border-bottom: solid 4px var(--primary-color)
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 p {
@@ -94,10 +96,17 @@ p {
     line-height: 1.9rem;
 }
 
+.border-bttm {
+    border-bottom: solid 4px var(--primary-color);
+}
+
 /* FORM STYLING */
 .prf1 fieldset {
+    width: 80%;
+    max-width: 700px;
     border: none;
     padding: 0 3rem 4rem;
+    margin: 0 auto;
 }
 
 .prf1 legend {
@@ -256,4 +265,17 @@ textarea {
     font-weight: 800;
     text-align: center;
     padding: .7rem;
+}
+
+@media (min-width: 900px) {
+
+    header,
+    main,
+    footer {
+        max-width: 1200px;
+    }
+
+    textarea {
+        max-width: 800px;
+    }
 }
