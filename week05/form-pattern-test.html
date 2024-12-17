@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Pattern Testing [Codepen]</title>
+    <meta name="description" content="Form Input Pattern Testing from codepen">
+    <meta name="author" content="Charisse Hearns-Lemon">
+    <link href="styles/form-pattern-test.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <h1>Form Input Pattern Attribute Testing</h1>
+        <p>1️⃣ In the HTML panel, enter a vaild, input pattern.<br> The default pattern is 6 to 10 characters inclusive with at least one number,<br> one special character, one upper case and one lower case.</p>
+        <p><code>pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{6,10}$"</code></p>
+        <p>2️⃣ In the preview panel, enter a test value in the input field.</p>
+        <p>
+            3️⃣ The input text and border will be green if the input meets the requirements of the pattern.
+        </p>
+        <hr>
+        <form>
+            <label for="test">Enter Test Characters: </label>
+            <input type="text" id="test" name="test" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{6,10}$" title="6 to 10 characters inclusive with at least on ne number, one special character, one upper case and one lower case letter.">
+        </form>
+    </main>
+    <!-- This example pattern: This pattern allows alphanumeric characters (both uppercase and lowercase letters and digits 0-9) and the special characters !@#$%^&*()_+-=. It allows a minimum length of 1 character and a maximum length of 20 characters. It also ensures that there is only one special character in the input field, and it is not the first or last character.  -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 W05 Assignment: Product Review Form</title>
+    <meta name="description" content="WDD 131 W05 Assignment: Product Review Form">
+    <meta name="author" content="Charisse Hearns-Lemon">
+    <link href="styles/form.css" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>WDD 131 | W05 Product Review Form</h1>
+        <h2>Charisse Hearns-Lemon</h2>
+    </header>
+
+    <main>
+
+        <h3>Product Review</h3>
+
+        <form method="get" action="review.html" class="prf1">
+
+            <fieldset>
+                <legend>Product Review</legend>
+
+                <label for="product-name" class="category">Product Name<span class="asterisk">&#1645</span></label>
+                <select id="product-name" name="product" required>
+                    <option value="" selected disabled>Select a Product ... </option>
+                </select>
+
+                <label class="category">Overall Rating<span class="asterisk">&#1645</span></label>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+
+
+                <label for="date" class="category">Date of Installation<span class="asterisk">&#1645</span></label>
+                <label><input type="date" id="date" name="date" required>
+                </label>
+
+                <label for="features" class="category">Which features did you find useful in the product<span class="asterisk">&#1645</span><br><span class="extra">Check all that apply</span></label>
+                <label class="features">
+                    <input type="checkbox" id="durability" name="durability" value="yes">Durability
+                </label>
+                <label class="features">
+                    <input type="checkbox" id="ease" name="ease" value="yes">Ease of Use
+                </label>
+                <label class="features">
+                    <input type="checkbox" id="performance" name="performance" value="yes">Performance
+                </label>
+                <label class="features">
+                    <input type="checkbox" id="design" name="design" value="yes">Design
+                </label>
+
+                <label for="review" class="category">Written Review</label>
+                <label>
+                    <textarea id="review" name="review"></textarea>
+                </label>
+
+                <label for="yname" class="category">Your Name</label>
+                <label>
+                    <input type="text" id="yname" name="yname">
+                </label>
+
+                <input type="submit" value="Post Review">
+            </fieldset>
+
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p id="medium"></p>
+    </footer>
+
+</body>
+
+</html>

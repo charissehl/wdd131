@@ -1,0 +1,259 @@
+/* CSS Variables */
+:root {
+    --heading-font: "Inconsolata", monospace;
+    --paragraph-font: "Roboto", sans-serif;
+
+    --primary-color: #141414;
+    --secondary-color: #0D21A1;
+    --accent1-color: #EEC643;
+    --accent2-color: #EEF0F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    display: block;
+}
+
+header,
+main,
+footer {
+    width: 100vw;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1.1rem 0;
+    margin-bottom: 1.1rem;
+    background-color: var(--accent1-color);
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 1.1rem 0 1.7rem;
+}
+
+footer p {
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3rem;
+    letter-spacing: -0.05rem;
+    padding-bottom: 0.7rem;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    padding: 0.4rem;
+}
+
+h3 {
+    font-family: var(--paragraph-font);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    color: var(--secondary-color);
+    padding: 0.8rem 3rem 0.7rem;
+    border-bottom: solid 4px var(--primary-color)
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+}
+
+/* FORM STYLING */
+.prf1 fieldset {
+    border: none;
+    padding: 0 3rem 4rem;
+}
+
+.prf1 legend {
+    display: none;
+}
+
+.prf1 label {
+    display: block;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+/* Gap between each form section */
+.category {
+    margin-top: 2.7rem;
+    padding-bottom: 0.3rem;
+}
+
+.prf1 select,
+.prf1 input[type="date"],
+.prf1 input[type="text"] {
+    width: 96%;
+    max-width: 400px;
+    border: solid 1px var(--accent1-color);
+    border-radius: 6px;
+    padding: .9rem;
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+/* Required thick border bottom for Product name selection and Date of installation */
+.prf1 select:required {
+    border-bottom: solid 8px var(--secondary-color);
+}
+
+.prf1 select:required:valid {
+    border-bottom: solid 8px var(--accent1-color);
+}
+
+.prf1 input[type="date"]:required {
+    border-bottom: solid 8px var(--secondary-color);
+}
+
+.prf1 input[type="date"]:required:valid {
+    border-bottom: solid 8px var(--accent1-color);
+}
+
+.asterisk {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    vertical-align: super;
+    padding-left: 6px;
+}
+
+/* Overall Rating */
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: var(--primary-color);
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.stars>label {
+    color: var(--accent1-color);
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    caret-color: var(--primary-color);
+    /* remove blinking cursor*/
+}
+
+.stars>label:hover {
+    color: var(--primary-color);
+}
+
+.stars>label::before {
+    content: "\2606";
+}
+
+.stars input:checked~label::before {
+    content: "\2605";
+}
+
+/* Useful Features */
+.extra {
+    font-size: 1rem;
+}
+
+.prf1 input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    vertical-align: middle;
+}
+
+.features {
+    font-family: var(--heading-font);
+}
+
+#durability {
+    margin-top: 1rem;
+}
+
+/* Written Review */
+textarea {
+    width: 100%;
+    height: 120px;
+    color: var(--secondary-color);
+    padding: .75rem;
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    /* Set a readable font size */
+    border: 1px solid var(--accent1-color);
+    border-radius: 6px;
+}
+
+/* Submit */
+.prf1 input[type="submit"] {
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(var(--secondary-color), var(--primary-color));
+    width: 96%;
+    max-width: 400px;
+    color: var(--accent2-color);
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+
+/* review.html */
+.review-thanks h3 {
+    font-size: 2.7rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: none;
+}
+
+.review-text {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.review-thanks p {
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+    padding: .7rem;
+}
