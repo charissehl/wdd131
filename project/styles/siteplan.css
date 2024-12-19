@@ -121,10 +121,17 @@ li img {
     display: block;
 }
 
-.wireframe img {
-    max-width: 80vw;
+.mobile-wf {
+    width: 80vw;
     height: auto;
 }
+
+.desktop-wf {
+    width: 80vw;
+    max-width: 500px;
+    height: auto;
+}
+
 
 @media (min-width: 500px) {
 
@@ -172,9 +179,15 @@ li img {
         font-size: 2.2rem;
     }
 
-    .wireframe img {
+    .mobile-wf {
         width: 80vw;
-        max-width: 950px;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .desktop-wf {
+        width: 80vw;
+        max-width: 800px;
         height: auto;
     }
 }
