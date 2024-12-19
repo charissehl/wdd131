@@ -121,8 +121,12 @@ li img {
     display: block;
 }
 
+.wireframe img {
+    max-width: 80vw;
+    height: auto;
+}
 
-@media (min-width: 900px) {
+@media (min-width: 500px) {
 
     header,
     main,
@@ -166,5 +170,11 @@ li img {
 
     #body {
         font-size: 2.2rem;
+    }
+
+    .wireframe img {
+        width: 80vw;
+        max-width: 950px;
+        height: auto;
     }
 }
