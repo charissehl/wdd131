@@ -23,6 +23,6 @@ const formatTime = `${padWithZero(today.getHours())}:${padWithZero(today.getMinu
 
 // medium and year content
 medium.innerHTML = `Last modified: ${formatDate}, ${formatTime}`;
-year.innerHTML = `©${today.getFullYear()} 🥝 Charisse Hearns-Lemon 🥝 Auckland NZ`; e
+year.innerHTML = `©${today.getFullYear()} 🥝 Charisse Hearns-Lemon 🥝 Auckland NZ`;
 
 
