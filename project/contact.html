@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponga Creative</title>
+    <meta name="description" content="Ponga Creative: Digital Scanning Service.">
+    <meta name="author" content="Charisse Hearns-Lemon">
+    <link href="styles/site.css" rel="stylesheet">
+    <link href="styles/site-lg.css" rel="stylesheet">
+    <script src="scripts/site.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Ponga Creative</h1>
+        <p>Professional image scanning</p>
+        <button id="menu">
+            <span class="topbar"></span>
+            <span class="midbar"></span>
+            <span class="btmbar"></span>
+        </button>
+        <div class="frond-icon">
+            <picture>
+                <source srcset="images/cyberfrond-icon-lg.webp" media="(min-width: 1050px)">
+                <source srcset="images/cyberfrond-icon.webp" media="(min-width: 700px)">
+                <img src="images/cyberfrond-icon-sml.webp" alt="Cyberfrond image" width="200" height="200">
+            </picture>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form method="get" action="review.html" class="prf1">
+
+                <fieldset>
+                    <legend>Your details</legend>
+
+                    <label for="yname" class="category">Name<span class="asterisk">&#1645;</span></label>
+                    <label>
+                        <input type="text" id="yname" name="yname" required>
+                    </label>
+
+                    <label for="phone" class="category">Phone<span class="asterisk">&#1645;</span></label>
+                    <label>
+                        <input type="phone" id="phone" name="phone" required>
+                    </label>
+
+                    <label for="email" class="category">Email<span class="asterisk">&#1645;</span></label>
+                    <label>
+                        <input type="email" id="email" name="email" required>
+                    </label>
+
+
+                    <label class="category">Which products are you interested in?<span class="asterisk">&#1645;</span><br><span class="extra">Check all that apply</span></label>
+                    <label class="services">
+                        <input type="checkbox" id="image-scan" name="image-scan" value="yes">Image scanning
+                    </label>
+                    <label class="features">
+                        <input type="checkbox" id="doc-scan" name="doc-scan" value="yes">Document scanning
+                    </label>
+                    <label class="features">
+                        <input type="checkbox" id="performance" name="performance" value="yes">Performance
+                    </label>
+                    <label class="features">
+                        <input type="checkbox" id="design" name="design" value="yes">Design
+                    </label>
+
+                    <label for="review" class="category">Any extra information</label>
+                    <label>
+                        <textarea id="review" name="review"></textarea>
+                    </label>
+
+
+
+                    <input type="submit" value="Contact Us">
+                </fieldset>
+
+
+            </form>
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p id="medium"></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@media (min-width: 900px) {
+
+    header,
+    main,
+    footer {
+        width: 100vw;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    main {
+        width: 100%;
+        max-width: 950px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+        font-size: 1.3rem;
+        background-color: var(--accent2-color);
+    }
+
+    .frond-icon img {
+        position: absolute;
+        top: 3rem;
+        left: 15%;
+        max-width: 200px;
+    }
+
+    /* Navigation menu: hide burger bar */
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation a {
+        display: block;
+    }
+
+    h1 {
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    p,
+    li {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .slider picture,
+    .slider img {
+        max-width: 1200px;
+    }
+
+    .testimonials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .testimonials h2 {
+        grid-column: span 3;
+    }
+
+}
